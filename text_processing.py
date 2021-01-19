@@ -71,7 +71,3 @@ def no_vowels(input_string):
         words = words.replace(vowel, '')
     no_vowel_string = words
     return no_vowel_string
-
-
-print(normalize("   EXTRA   SPACE   "))
-print(no_vowels("This is an example."))
